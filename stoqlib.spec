@@ -16,8 +16,10 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.27
 BuildRequires: python-psycopg2
+BuildRequires: python-zope-interface
 BuildRequires: gazpacho
 BuildRequires: python-dateutil
+BuildRequires: python-zope-interface
 BuildArch: noarch
 
 %description
