@@ -21,6 +21,8 @@ BuildRequires: gazpacho
 BuildRequires: python-dateutil
 BuildRequires: python-imaging
 BuildRequires: python-zope-interface
+BuildRequires: python-devel
+BuildRequires: python-reportlab
 BuildRequires: stoqdrivers >= 0.9.15
 BuildArch: noarch
 
