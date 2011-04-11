@@ -19,6 +19,7 @@ BuildRequires: python-psycopg2
 BuildRequires: python-zope-interface
 BuildRequires: gazpacho
 BuildRequires: python-dateutil
+BuildRequires: python-imaging
 BuildRequires: python-zope-interface
 BuildRequires: stoqdrivers >= 0.9.15
 BuildArch: noarch
