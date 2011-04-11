@@ -56,4 +56,4 @@ rm -rf %{buildroot}
 %{_datadir}/stoqlib/sql
 %{_datadir}/stoqlib/csv
 %{_datadir}/stoqlib/template
-/usr/lib/python2.6/site-packages/stoqlib-0.9.15-py2.6.egg-info
+/usr/lib/python%{python_version}/site-packages/stoqlib-0.9.15-py%{python_version}.egg-info
