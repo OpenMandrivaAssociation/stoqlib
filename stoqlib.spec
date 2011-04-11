@@ -48,7 +48,7 @@ rm -rf %{buildroot}
 %defattr(-, root, root, 0755)
 %doc AUTHORS ChangeLog COPYING README
 %{python_sitelib}/stoqlib
-%{_libdir}/stoqlib
+/usr/lib/stoqlib
 %{_datadir}/locale/*/LC_MESSAGES/stoqlib.mo
 %{_datadir}/stoqlib/fonts
 %{_datadir}/stoqlib/glade
