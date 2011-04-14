@@ -2,7 +2,7 @@
 
 %define name stoqlib
 %define version 0.9.15
-%define release %mkrel 0
+%define release %mkrel 2
 
 Summary: Fiscal driver collection
 Name: %{name}
@@ -15,14 +15,14 @@ Source: stoqlib-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.27
-BuildRequires: python-psycopg2
+Requires: python-psycopg2
 BuildRequires: python-zope-interface
 BuildRequires: gazpacho
 BuildRequires: python-dateutil
 BuildRequires: python-imaging
 BuildRequires: python-zope-interface
 BuildRequires: python-devel
-BuildRequires: python-reportlab
+Requires: python-reportlab
 BuildRequires: stoqdrivers >= 0.9.15
 BuildArch: noarch
 
