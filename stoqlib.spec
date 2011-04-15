@@ -13,16 +13,16 @@ Group: System/Libraries
 URL: http://www.stoq.com.br/
 Source: stoqlib-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
+Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27, python-reportlab, python-psycopg2
 BuildRequires: python-kiwi >= 1.9.27
-Requires: python-psycopg2
+BuildRequires: python-psycopg2
 BuildRequires: python-zope-interface
 BuildRequires: gazpacho
 BuildRequires: python-dateutil
 BuildRequires: python-imaging
 BuildRequires: python-zope-interface
 BuildRequires: python-devel
-Requires: python-reportlab
+BuildRequires: python-reportlab
 BuildRequires: stoqdrivers >= 0.9.15
 BuildArch: noarch
 
