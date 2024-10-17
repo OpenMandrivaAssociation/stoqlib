@@ -10,7 +10,7 @@ Version: %{version}
 Release: %{release}
 License: LGPL
 Group: System/Libraries
-URL: http://www.stoq.com.br/
+URL: https://www.stoq.com.br/
 Source: stoqlib-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27, python-reportlab, python-psycopg2
